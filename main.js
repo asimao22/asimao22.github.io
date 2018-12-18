@@ -8,8 +8,3 @@ window.addEventListener(scroll,function()
     * 0.7 + "px";
     
 })
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ef997a5e7e6929731626a322c003ca44190256f7

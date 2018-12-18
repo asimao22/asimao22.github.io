@@ -1,10 +1,4 @@
-/* .container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #ffeead;
-} */
+
 
 *{
     border: 0;
@@ -22,9 +16,12 @@ div{
     height: 100vh;
 }
 
-#selfphoto
-{margin-left:10%;
+#selfphoto {
+    margin-left: 1em;
+    padding-left: 2em;
+ 
 }
+
 
 h1{ color:#ffa7a7;
     font-size: 130px;
@@ -36,7 +33,7 @@ h1{ color:#ffa7a7;
 
 h2 {
     font-size: 60px;
-    color:#ffa7a7;
+    color:black;
     padding: 8px 24px;
     border-radius: 16px;
 }
@@ -46,7 +43,7 @@ h3{
 }
 
 .welcome {
-    color:white;
+    color:black;
     font-size: 9em;
 }
 
@@ -73,6 +70,8 @@ h3{
    text-decoration:none;
    padding-left: 160px;
    background-color: transparent;
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 1.1em;
 
    /* float: right !important; */
    /* position: absolute; */
@@ -80,7 +79,14 @@ h3{
 }
 
 .photographer {
-    color:black;
+    color:white;
+}
+
+.magic {
+    color: #ffa7a7;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.7em;
+
 }
 
 #topnav {
@@ -91,11 +97,6 @@ h3{
     
 }
 
-/* a{
-text-decoration:none;
-border-bottom:0px solid white;
-transition: all 0.25s ease-in-out 0s;
-} */
 
 a:hover{
 color:#FFE58B;
@@ -104,11 +105,13 @@ transition: all 0.25s ease-in-out 0s;
 
 
 
-p{  font-family: 'Karma', serif;
-    font-size:14px;
+p{  
+    font-family: 'Noto Sans', sans-serif;
     padding-left:30px;
-    padding-right:50px;
+    padding-right:-6em;
+    margin-right: 10em;
     color:black;
+    font-size: 0.8em;
 }
 
 h4{
@@ -116,110 +119,157 @@ h4{
 }
 
 #myImg {
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 #myImg:hover {opacity: 0.7;}
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+* {
+    box-sizing: border-box;
 }
 
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  z-index: 5;
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
 }
 
-/* Add Animation */
-.modal-content, #caption {    
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
-@-webkit-keyframes zoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    padding-left: 0px;
+    align-content: center;
+    justify-items: center;
 }
 
-@keyframes zoom {
-  from {transform: scale(0.1)} 
-  to {transform: scale(1)}
+form { 
+    margin: 0 auto; 
+    width: 350px;
+    margin-left: 50%;
+    margin-top: -10%;
+    align-content: center;
+    justify-content: center;
+
 }
 
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+.aboutme {
+    margin-right:-20px;
 }
 
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+
+/* Create two columns that float next to eachother */
+
+.column {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Noto Sans', sans-serif;
+    
+    
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-      width: 100%;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.spotifybio {
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    /* margin-left: 200px;
+    margin-top: 25px;
+    */
   }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+    
+   
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 51px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20%;
+    align-content: flex-start;
+    justify-content: center;
+  }
+  
+#finalportdiv {
+    background: black;
+
 }
 
+
+
+
+
+/* Divs corresponding to section */
+
+/* Header "Alison Simao" */
 div:nth-child(1){
     height: 5%;
-    padding-top:1%;
+    padding-top:1.1%;
     position: static;
-    background:#141C1E;
+    background:#060d1b;
     justify-content:left;
     padding-left:9px;
     margin-bottom:-4.5%
 }
 
+
+/* Navigation Bar */
 div:nth-child(2){
     background:white;
     height:6%;
 }
 
-/* Flower Opening Photo */
+
+/* "Photographer. Artist." */
 div:nth-child(3){
-    height: 900px;
+    height: 700px;
     background-image: url(./_DSC0635.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -230,34 +280,86 @@ div:nth-child(3){
 /* About Me */
 div:nth-child(4) {
     background:white;
-    height:500px;
-    margin-left: -60px;
+    height:600px;
+    padding-top: 3px;
+
+    
 }
 
-/* Projects Title Section */
+/* Spotify Div Section */
 div:nth-child(5){
-    height: 400px;
-    background-image: url(./purp\ &\ yellow\ landscape\ EDIT.jpg);
+    height: 500px;
+    background-image: url(http://i63.tinypic.com/149sf7m.jpg);
+    /* background: #d2c2a1; */
+    /* background: #e8b393; */
     background-size:cover;
     background-attachment: fixed;
     border: white;
 }
 
-/* Portfolio Photos Div */
+
+/* "Projects" */
 div:nth-child(6) {
-    height:500px;
-    background: #141C1E;
+    height:250px;
+    background: black;
+    padding-top: -20%;
+    margin-bottom: -2.1%;
+}
+
+/* Portfolio Photos 1-4 */
+div:nth-child(7) {
+    height:250px;
+    background: black;
+    margin-top:-22px;
+    margin-bottom: -2.1%;
+}
+
+/* Portfolio Photos 5-8 */
+div:nth-child(8) {
+    height:250px;
+    background: black;
+    margin-top:-22px;
+    margin-bottom: -2.1%;
+}
+
+/* Portfolio Photos 9-12 */
+div:nth-child(9) {
+    height:250px;
+    background: black;
     margin-top:-22px;
 }
 
-div:nth-child(7) {
-    height:20%;
-    background:#141C1E;
+/* Portfolio Photos 13-16 */
+div:nth-child(10){
+    height:250px;
+    background: black;
+    margin-top:-22px;
+
+}
+
+
+/* Contact Me Title Div */
+div:nth-child(11) {
+    height:350px;
+    /* background-image: url(./colour\ Blur1.jpg); */
+    background-image: url(http://i65.tinypic.com/35holtl.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+
     
 }
 
-div:nth-child(8) {
-    height:20%;
-    background: rgb(250, 250, 250);
-    
+div:nth-child(12) {
+    height:600px;
+    background: #060d1b;
+    justify-content: center;
+
 }
+
+div:nth-child(13) {
+    height: 200px;
+    /* background-image: url(./PVD\ 5-2.jpg); */
+    background-image: url(http://i67.tinypic.com/rmjibl.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+ }

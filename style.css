@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ef997a5e7e6929731626a322c003ca44190256f7
 *{
     border: 0;
     padding: 0;
@@ -270,7 +273,11 @@ div:nth-child(2){
 /* "Photographer. Artist." */
 div:nth-child(3){
     height: 700px;
+<<<<<<< HEAD
     background-image: url(./_DSC0635.jpg);
+=======
+    background-image: url(http://i63.tinypic.com/2rhl3r5.jpg);
+>>>>>>> ef997a5e7e6929731626a322c003ca44190256f7
     background-size: cover;
     background-attachment: fixed;
     text-align: left;
@@ -362,4 +369,8 @@ div:nth-child(13) {
     background-image: url(http://i67.tinypic.com/rmjibl.jpg);
     background-size:cover;
     background-attachment: fixed;
+<<<<<<< HEAD
  }
+=======
+ }
+>>>>>>> ef997a5e7e6929731626a322c003ca44190256f7

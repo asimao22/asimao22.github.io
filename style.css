@@ -277,7 +277,7 @@ div:nth-child(2){
 /* "Photographer. Artist." */
 div:nth-child(3){
     height: 700px;
-    background-image: url(/portfolioSite/20190330-_DSC0471.jpg);
+    background-image: url(http://i63.tinypic.com/nwx2ma.jpg);
     background-size: cover;
     background-attachment: fixed;
     text-align: left;
@@ -296,7 +296,7 @@ div:nth-child(4) {
 /* Spotify Div Section */
 div:nth-child(5){
     height: 500px;
-    background-image: url(/portfolioSite/20190330-_DSC0411.jpg);
+    background-image: url(http://i63.tinypic.com/4pv4b8.jpg);
     /* background: #d2c2a1; */
     /* background: #e8b393; */
     background-size:cover;
@@ -349,7 +349,7 @@ div:nth-child(10){
 div:nth-child(11) {
     height:350px;
     /* background-image: url(./colour\ Blur1.jpg); */
-    background-image: url(/portfolioSite/20190330-_DSC0427.jpg);
+    background-image: url(http://i66.tinypic.com/2rn8m8n.jpg);
     background-size:cover;
     background-attachment: fixed;
 
@@ -366,7 +366,7 @@ div:nth-child(12) {
 div:nth-child(13) {
     height: 200px;
     /* background-image: url(./PVD\ 5-2.jpg); */
-    background-image: url(/portfolioSite/20190330-_DSC0471.jpg);
+    background-image: url(http://i63.tinypic.com/nwx2ma.jpg);
     background-size:cover;
     background-attachment: fixed;
 }

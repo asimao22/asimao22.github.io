@@ -50,7 +50,8 @@ body {background-color: #060d1b;}
 
 .heading {
   text-align: left;
-  font-family: 'Reenie Beanie', cursive;
+  /* font-family: 'Reenie Beanie', cursive; */
+  font-family: 'Damion', cursive;
   color: 	#f18a8a;
   font-size: 7em;
   margin-top: 50px;
@@ -225,3 +226,4 @@ Code starter */
   }
   
   
+

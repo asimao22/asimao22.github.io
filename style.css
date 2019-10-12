@@ -296,7 +296,7 @@ div:nth-child(4) {
 /* Spotify Div Section */
 div:nth-child(5){
     height: 500px;
-    background-image: url(https://live.staticflickr.com/65535/48883294076_b9e99a4898_k.jpg);
+    background-image: url(https://live.staticflickr.com/65535/48883023133_62b8e0df37_k.jpg);
     /* background: #d2c2a1; */
     /* background: #e8b393; */
     background-size:cover;
@@ -349,7 +349,7 @@ div:nth-child(10){
 div:nth-child(11) {
     height:350px;
     /* background-image: url(./colour\ Blur1.jpg); */
-    background-image: url(https://live.staticflickr.com/65535/48883023133_62b8e0df37_k.jpg);
+    background-image: url(https://live.staticflickr.com/65535/48883294076_b9e99a4898_k.jpg);
     background-size:cover;
     background-attachment: fixed;
 
@@ -366,7 +366,7 @@ div:nth-child(12) {
 div:nth-child(13) {
     height: 200px;
     /* background-image: url(./PVD\ 5-2.jpg); */
-    background-image: url(https://live.staticflickr.com/65535/48883023133_62b8e0df37_k.jpg);
+    background-image: url(https://live.staticflickr.com/65535/48883294076_b9e99a4898_k.jpg);
     background-size:cover;
     background-attachment: fixed;
 }
